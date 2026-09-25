@@ -1,0 +1,26 @@
+{
+  "fixture_status": "TEST DATA ONLY",
+  "content_type": "SYNTHETIC_QURAN_FIXTURE",
+  "warning": "NOT QURAN CONTENT",
+  "students": [
+    {"identifier": "TEST-STUDENT-001", "display_name": "Synthetic Student 001", "synthetic": true}
+  ],
+  "teachers": [
+    {"identifier": "TEST-TEACHER-001", "display_name": "Synthetic Teacher 001", "synthetic": true}
+  ],
+  "trainees": [
+    {"identifier": "TEST-TRAINEE-001", "display_name": "Synthetic Trainee 001", "synthetic": true}
+  ],
+  "sessions": [
+    {"identifier": "TEST-SESSION-001", "synthetic": true}
+  ],
+  "attendance": [
+    {"identifier": "TEST-ATTENDANCE-001", "synthetic": true}
+  ],
+  "curricula": [
+    {"identifier": "TEST-CURRICULUM-001", "synthetic": true}
+  ],
+  "projects": [
+    {"identifier": "TEST-PROJECT-001", "synthetic": true}
+  ]
+}
