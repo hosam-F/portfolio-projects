@@ -1,0 +1,36 @@
+{
+  "dataset": "ASVspoof 2017 Version 2 Development Set",
+  "protocol": "data\\metadata\\protocol_official\\extracted\\protocol_V2\\ASVspoof2017_V2_dev.trl.txt",
+  "random_state": 42,
+  "test_size": 0.2,
+  "total_samples": 1710,
+  "train_samples": 1368,
+  "test_samples": 342,
+  "train_distribution": {
+    "GENUINE": 608,
+    "REPLAY": 760
+  },
+  "test_distribution": {
+    "GENUINE": 152,
+    "REPLAY": 190
+  },
+  "feature_dimensions": 80,
+  "accuracy": 0.97953216374269,
+  "precision_replay": 0.9692307692307692,
+  "recall_replay": 0.9947368421052631,
+  "f1_replay": 0.9818181818181818,
+  "labels": [
+    "GENUINE",
+    "REPLAY"
+  ],
+  "confusion_matrix": [
+    [
+      146,
+      6
+    ],
+    [
+      1,
+      189
+    ]
+  ]
+}

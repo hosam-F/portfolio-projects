@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="500" viewBox="0 0 620 500">
+<rect width="620" height="500" fill="white"/>
+<text x="310" y="34" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Confusion Matrix</text>
+<text x="310" y="62" text-anchor="middle" font-family="Arial" font-size="14">ASVspoof 2017 V2 Development Set</text>
+<text x="250" y="108" text-anchor="middle" font-family="Arial" font-size="16">Predicted</text>
+<text x="255" y="145" text-anchor="middle" font-family="Arial" font-size="14">GENUINE</text><text x="405" y="145" text-anchor="middle" font-family="Arial" font-size="14">REPLAY</text>
+<text x="72" y="250" text-anchor="middle" font-family="Arial" font-size="16" transform="rotate(-90 72 250)">Actual</text>
+<text x="118" y="218" text-anchor="middle" font-family="Arial" font-size="14">GENUINE</text><text x="118" y="368" text-anchor="middle" font-family="Arial" font-size="14">REPLAY</text>
+<rect x="180" y="170" width="150" height="150" fill="#b7e4c7" stroke="white" stroke-width="3"/><rect x="330" y="170" width="150" height="150" fill="#f7cad0" stroke="white" stroke-width="3"/>
+<rect x="180" y="320" width="150" height="150" fill="#f7cad0" stroke="white" stroke-width="3"/><rect x="330" y="320" width="150" height="150" fill="#b7e4c7" stroke="white" stroke-width="3"/>
+<text x="255" y="258" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold">146</text><text x="405" y="258" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold">6</text>
+<text x="255" y="408" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold">1</text><text x="405" y="408" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold">189</text>
+<text x="310" y="492" text-anchor="middle" font-family="Arial" font-size="12">Rows: actual labels | Columns: predicted labels</text>
+</svg>
