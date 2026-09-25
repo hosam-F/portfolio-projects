@@ -1,0 +1,65 @@
+name: oiyajiapp
+description: تطبيق خطب ودروس الشيخ محمد الجرافي
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # إدارة الحالة
+  provider: ^6.1.1
+
+  # قاعدة البيانات المحلية
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # Drawer متطور
+  flutter_zoom_drawer: ^3.0.2
+
+  # عرض PDF
+  advance_pdf_viewer: ^3.0.0
+  path_provider: ^2.1.1
+
+  # الترجمة واللغات
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  easy_localization: ^3.0.2
+
+  # المصادقة (بدون Firebase للحفاظ على البساطة)
+  shared_preferences: ^2.2.2
+
+  # أدوات مساعدة
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+  cached_network_image: ^3.3.0
+
+  # تصميم
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/books/
+    - assets/images/
+    - assets/translations/
+    - assets/database/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
