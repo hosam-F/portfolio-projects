@@ -1,0 +1,123 @@
+﻿/* الأساسيات */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+}
+
+/* الهيدر */
+header {
+    background: linear-gradient(90deg, #0066cc, #004080);
+    color: #fff;
+    padding: 1.5rem 0;
+   border-radius: 15px;
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    animation: fadeIn 2s ease-out;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 0;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* الأقسام */
+.section {
+    padding: 3rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+    color: #0066cc;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* الجداول */
+.community-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.community-table thead {
+    background: #0066cc;
+    color: #fff;
+    font-weight: bold;
+}
+
+.community-table th,
+.community-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.community-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.community-table tr:hover {
+    background: #e6f7ff;
+    cursor: pointer;
+}
+
+/* القوائم */
+.importance-list {
+    list-style: disc;
+    padding-right: 1.5rem;
+    margin: 1rem 0;
+}
+
+.importance-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* الفوتر */
+footer {
+    background: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+   border-radius: 15px;
+
+}
+
+/* تأثيرات النصوص */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
