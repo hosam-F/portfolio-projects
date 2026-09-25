@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-08-29T14:26:37.586562+00:00",
+  "root": "D:\\دليل المربي القرآني",
+  "master": "D:\\دليل المربي القرآني\\00_MASTER",
+  "latest_phase": "3.13.41",
+  "source_preserved": true,
+  "gates": {
+    "CONTENT_GATE": "LOCKED / NO-GO",
+    "RELEASE_GATE": "LOCKED / NO-GO",
+    "PRODUCTION_READY": "NO",
+    "RELEASE_READY": "NO"
+  },
+  "folders": {
+    "RELEASE": {
+      "exists": true,
+      "files": 192
+    },
+    "DATABASE": {
+      "exists": true,
+      "files": 256
+    },
+    "PRESENTATION": {
+      "exists": true,
+      "files": 35
+    },
+    "PROJECT_PORTABLE": {
+      "exists": true,
+      "files": 7
+    },
+    "00_MASTER": {
+      "exists": true,
+      "files": 39684
+    },
+    "01_SOURCE": {
+      "exists": true,
+      "files": 63
+    },
+    "02_DATABASE": {
+      "exists": true,
+      "files": 253
+    },
+    "03_PRESENTATION": {
+      "exists": true,
+      "files": 25
+    },
+    "04_INTEGRATION": {
+      "exists": true,
+      "files": 12928
+    },
+    "05_TESTS": {
+      "exists": true,
+      "files": 44
+    },
+    "06_INSTALLER": {
+      "exists": true,
+      "files": 1076
+    },
+    "07_DOCUMENTATION": {
+      "exists": true,
+      "files": 490
+    },
+    "08_EVIDENCE": {
+      "exists": true,
+      "files": 4216
+    },
+    "10_LEARNING": {
+      "exists": true,
+      "files": 16
+    }
+  },
+  "installer_hash_file": "INSTALLER_SHA256.txt",
+  "next_priority": "تحسين الواجهة بالكامل كأولوية تطوير لاحقة، دون الادعاء بتنفيذها في مرحلة التسليم."
+}
